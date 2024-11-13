@@ -1,0 +1,8 @@
+framework module "umbrellaKlib" {
+    umbrella header "umbrellaKlib.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
